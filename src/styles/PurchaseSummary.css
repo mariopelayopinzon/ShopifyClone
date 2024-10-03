@@ -1,0 +1,23 @@
+.purchase-summary {
+    padding: 20px;
+    margin: 20px;
+    border: 1 px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.purchase-summary h2 {
+    color: #28a745
+}
+
+.purchase-summary ul { 
+    list-style-type: none;
+    padding: 0;
+}
+
+.purchase-summary li { 
+    margin: 5px 0;
+}

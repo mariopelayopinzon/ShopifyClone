@@ -1,0 +1,73 @@
+/* Login.css */
+
+body {
+    margin: 0; /* Eliminar márgenes predeterminados */
+    height: 100vh; /* Hacer que el cuerpo ocupe toda la altura de la ventana */
+    display: flex; /* Usar flexbox para centrar el contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    background: linear-gradient(135deg, #FF7E5F, #FF6E40); /* Fondo de gradiente */
+}
+
+.login-container {
+    max-width: 400px;
+    width: 90%; /* Asegura que el contenedor ocupe el 90% del ancho disponible */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex; /* Hacer uso de flexbox en el contenedor */
+    flex-direction: column; /* Colocar elementos en columna */
+    align-items: center; /* Centrar elementos horizontalmente */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    width: 100%; /* Asegura que el grupo de formulario ocupe todo el ancho */
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 100%; /* Asegura que el input ocupe todo el ancho disponible */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #ff5722;
+    outline: none; 
+}
+
+.error-message {
+    color: red; 
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.login-button {
+    width: 100%; /* Asegura que el botón ocupe todo el ancho disponible */
+    padding: 10px;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #e64a19;
+}

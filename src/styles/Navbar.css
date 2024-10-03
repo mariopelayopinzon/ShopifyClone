@@ -1,0 +1,71 @@
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2ecc71;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav  a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 20px; /* Agrega un margen derecho */
+}
+
+nav a:hover {
+  color: #ff9900;
+}
+
+
+nav button {
+  background-color: #ff9900;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px; /* Agrega un margen izquierdo */
+}
+
+nav button:hover {
+  background-color: #e68a00;
+}
+
+nav span {
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 20px; /* Agrega un margen derecho */
+}
+
+nav input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+  margin-left: 20px; /* Agrega un margen izquierdo */
+}
+
+nav button[type="button"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 20px; /* Agrega un margen izquierdo */
+}
+
+nav button[type="button"]:hover {
+  background-color: #3e8e41;
+}
